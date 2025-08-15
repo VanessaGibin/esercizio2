@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>giorno 22-23-24</title>
+        <link rel="stylesheet" href="style22-23-24.css">
+    </head>
+    <body>
+        <header>
+            <div class="bandaSuperiore">
+                <h1>TITOLO</h1>
+                <input type="checkbox" id="menu-toggle" />
+                <label for="menu-toggle" class="menu-icon">&#9776;</label>
+                <nav class="menu">
+                <a href="giorno22-23-24.html" class="sezione">Home</a>
+                <a href="giorno22-23-24_pag2.html" class="sezione">Form</a>
+                <a href="informazioni.html" class="sezione">Informazioni</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="form">
+                <h3>FORM</h3>
+                <form action="fintoFile.php" method="post">
+                    <label for="nome">nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="inserisci il tuo nome"><br>
+                    <label for="email">email:</label>
+                    <input type="email" id="email" name="email" placeholder="inserisci la tua email"><br>
+                    <label for="messaggio">messaggio:</label><br>
+                    <textarea id="messaggio" name="messaggio" rows="3" cols="25" placeholder="inserisci il tuo messaggio"></textarea><br>
+                    <label for="motivo">motivo:</label><br>
+                    <select id="motivo" name="motivo">
+                        <option value="help">aiuto</option>
+                        <option value="info">informazioni</option>
+                        <option value="faq">domanda</option>
+                    </select>
+                    <button type="submit">Invia</button>
+                </form>
+            </div>
+        </main>
+        <footer class="footerFisso">
+            @ 2025
+        </footer>
+    </body>
+</html>
